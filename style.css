@@ -367,7 +367,7 @@ header nav a:hover::after {
     color: #fff;
     border-radius: 8px;
     padding: 12px 35px;
-    transition: all 0.6s ease-in-out;
+    transition: all 0.5s ease-in-out;
 
 }
 
@@ -588,7 +588,7 @@ header nav a:hover::after {
 .div14 {
     background-color: rgb(226, 170, 100);
     width: 600px;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 25px 20px;
 }
 
@@ -661,7 +661,8 @@ ul a {
     line-height: 35px;
     transition: all 0.4s ease-in-out;
 }
-ul a:hover{
+
+ul a:hover {
     color: rgb(226, 170, 100);
 }
 
@@ -743,4 +744,390 @@ ul a:hover{
 
 .f6 a:hover {
     text-decoration: underline;
+}
+
+
+
+
+
+
+@media (min-width: 1920px) {
+
+    .div1 {
+        border-radius: 20px;
+        width: 540px;
+        height: 580px;
+        background-color: #fff;
+        position: absolute;
+        top: 100px;
+        left: 1150px;
+        opacity: 0;
+        transform: translateX(30px);
+        animation: myanimation 2s ease forwards;
+        animation-delay: 0s;
+    }
+
+    .anchor #a2 {
+        font-family: sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        position: absolute;
+        left: 540px;
+        top: -385px;
+        text-decoration: none;
+        color: #000;
+        background-color: #fff;
+        border: 1px solid #fff;
+        border-radius: 13px;
+        padding: 8px 12px
+    }
+
+    .anchor #a3 {
+        font-family: sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        position: absolute;
+        left: 990px;
+        top: -385px;
+        text-decoration: none;
+        color: #000;
+        background-color: #fff;
+        border: 1px solid #fff;
+        border-radius: 13px;
+        padding: 8px 12px;
+    }
+
+    .anchor #a4 {
+        font-family: sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        position: absolute;
+        left: 1440px;
+        top: -385px;
+        text-decoration: none;
+        color: #000;
+        background-color: #fff;
+        border: 1px solid #fff;
+        border-radius: 13px;
+        padding: 8px 12px;
+    }
+
+    .div8 .img {
+        width: 570px;
+        height: 500px;
+        position: relative;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 1660px) {
+    header h1 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 35px;
+    }
+
+    nav a {
+        font-family: "Saira", sans-serif;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 500;
+        color: #000;
+        margin-left: 25px;
+        position: relative;
+        padding-bottom: 5px;
+    }
+
+    .head h1 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 65px;
+        line-height: 65px;
+    }
+
+    .head h4 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 25px;
+        margin-top: -25px;
+    }
+
+    .div1 {
+        border-radius: 20px;
+        width: 410px;
+        height: 420px;
+        background-color: #fff;
+        position: absolute;
+        top: 65px;
+        left: 775px;
+        opacity: 0;
+        transform: translateX(30px);
+        animation: myanimation 2s ease forwards;
+        animation-delay: 0s;
+    }
+
+    .div1 img {
+        border-radius: 10px;
+        padding: 22px 25px 0px 25px;
+        width: 362px;
+        height: 225px;
+    }
+
+    .div1 a {
+        position: absolute;
+        top: 35px;
+        left: 35px;
+        display: inline-block;
+        font-family: sans-serif;
+        text-decoration: none;
+        border-radius: 20px;
+        font-size: 15px;
+        border: 1px solid #000;
+        background-color: #000;
+        color: #fff;
+        padding: 6px 15px 6px 15px;
+    }
+
+    .div1 .p1 {
+        font-family: "Saira", sans-serif;
+        font-weight: 700;
+        font-size: 22px;
+        margin-top: 0px;
+        padding-left: 25px;
+    }
+
+    .div1 .p2 {
+        font-family: "Saira", sans-serif;
+        font-weight: 600;
+        text-decoration: line-through;
+        color: darkslategray;
+        font-size: 18px;
+        margin-top: -25px;
+        padding-left: 25px;
+    }
+
+    .div1 .p3 {
+        font-family: "Saira", sans-serif;
+        font-weight: 700;
+        font-size: 23px;
+        margin-top: -23px;
+        padding-left: 25px;
+    }
+
+    #butt {
+        font-family: sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        border-radius: 14px;
+        margin-top: -14px;
+        margin-left: 25px;
+        padding: 17px 15px;
+        color: #fff;
+        background-color: #000;
+        border: 1px solid #000;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .div3 h1 {
+        font-size: 32px;
+        font-weight: 400;
+        font-family: "Saira", sans-serif;
+    }
+
+    .div3 h3 {
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "Saira", sans-serif;
+        border: 1px solid #000;
+        padding: 6px 15px;
+        border-radius: 10px;
+        transition: all 0.5s ease-in-out;
+        cursor: pointer;
+    }
+
+    .div4 img {
+        margin-left: 23px;
+        width: 283px;
+        height: 270px;
+        border: 1px solid #fff;
+        border-radius: 23px;
+    }
+
+    .anchor #a1 {
+        font-family: sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        position: absolute;
+        left: 85px;
+        top: -260px;
+        text-decoration: none;
+        color: #000;
+        background-color: #fff;
+        border: 1px solid #fff;
+        border-radius: 12px;
+        padding: 6px 6px;
+    }
+
+    .anchor #a2 {
+        font-family: sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        position: absolute;
+        left: 393px;
+        top: -260px;
+        text-decoration: none;
+        color: #000;
+        background-color: #fff;
+        border: 1px solid #fff;
+        border-radius: 12px;
+        padding: 6px 6px;
+    }
+
+    .anchor #a3 {
+        font-family: sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        position: absolute;
+        left: 702px;
+        top: -260px;
+        text-decoration: none;
+        color: #000;
+        background-color: #fff;
+        border: 1px solid #fff;
+        border-radius: 12px;
+        padding: 6px 6px;
+    }
+
+    .anchor #a4 {
+        font-family: sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        position: absolute;
+        left: 1007px;
+        top: -260px;
+        text-decoration: none;
+        color: #000;
+        background-color: #fff;
+        border: 1px solid #fff;
+        border-radius: 12px;
+        padding: 6px 6px;
+    }
+
+    .div5 {
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+    }
+
+    .div5 button {
+        font-family: "Saira", sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 15px;
+        padding: 10px 40px;
+        color: #fff;
+        background-color: #000;
+        border: 1px solid #000;
+        transition: all 0.5s ease-in-out;
+        cursor: pointer;
+    }
+
+    .div6 {
+        display: flex;
+        justify-content: space-between;
+        padding: 80px 70px 50px 70px;
+    }
+
+    .divh {
+        padding-top: 50px;
+    }
+
+    .divh h1 {
+        font-family: "Saira", sans-serif;
+        font-size: 50px;
+        line-height: 55px;
+        font-weight: 400;
+    }
+
+    .divh p {
+        font-family: "Saira", sans-serif;
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    #but {
+        font-family: "Saira", sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        border: 1px solid #000;
+        background-color: #000;
+        color: #fff;
+        border-radius: 15px;
+        padding: 12px 27px;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .div6 img {
+        border-radius: 25px;
+        width: 550px;
+        height: 550px;
+    }
+
+    .div7 h1 {
+        font-weight: 400;
+        font-size: 32px;
+        font-family: "Saira", sans-serif;
+    }
+
+    .div7 h3 {
+        font-size: 16px;
+        font-weight: 500;
+        font-family: "Saira", sans-serif;
+        border: 1px solid #000;
+        padding: 6px 15px;
+        border-radius: 10px;
+        transition: all 0.5s ease-in-out;
+        cursor: pointer;
+    }
+
+    .div8 {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 70px;
+    }
+
+    .div8 .img {
+        width: 390px;
+        height: 360px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .div9 .div10 h1 {
+        font-family: "Space Grotesk", sans-serif;
+        line-height: 65px;
+        font-size: 70px;
+        font-weight: 700;
+        padding-left: 70px;
+        opacity: 0;
+        transform: translateY(-70px);
+        animation: myanimation 2s ease forwards;
+        animation-delay: 0s;
+    }
+
+    .div10 p {
+        font-family: "Saira", sans-serif;
+        text-align: justify;
+        padding-right: 70px;
+        font-size: 15px;
+        opacity: 0;
+        transform: translateY(-90px);
+        animation: myanimation 2s ease forwards;
+        animation-delay: 0s;
+
+    }
+
+    .div11 h1 {
+        font-weight: 400;
+        padding-left: 70px;
+        font-size: 25px;
+        font-family: "Saira", sans-serif;
+    }
 }
