@@ -390,60 +390,46 @@ header nav a:hover::after {
     font-family: "Saira", sans-serif;
 }
 
-.div7 h3 {
-    font-size: 25px;
-    font-weight: 500;
-    font-family: "Saira", sans-serif;
-    border: 1px solid #000;
-    padding: 8px 17px;
-    border-radius: 10px;
-    transition: all 0.8s ease-in-out;
-    cursor: pointer;
-}
-
-.div7 h3:hover {
-    color: #fff;
-    background-color: #000;
-}
-
 .div8 {
     display: flex;
     justify-content: space-between;
-    padding: 30px 70px;
+    padding: 0px 70px;
 }
 
-.div8 .img {
-    width: 530px;
-    height: 500px;
+.product {
     position: relative;
+    width: 520px;
+    height: 500px;
     overflow: hidden;
+    border-radius: 20px;
 }
 
-.div8 .img img {
+.product img {
     width: 100%;
     height: 100%;
-    border-radius: 30px;
+    display: block;
 }
 
-/* .div8 .img h2 {
-    font-family: "Saira", sans-serif;
-    color: #fff;
-    background-color: #000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 540px;
-    height: 50px;
-    border-radius: 12px;
+.cart-btn {
     position: absolute;
-    bottom: -60px;
-    transition: all 1.2s ease-in-out;
-    
-
+    bottom: -50px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Saira", sans-serif;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.6s ease;
 }
-.div8 .img .cart:hover{
-    bottom: -10px;
-} */
+
+.product:hover .cart-btn {
+    bottom: 0;
+}
+
 
 .div9 {
     height: 900px;
@@ -549,79 +535,6 @@ header nav a:hover::after {
 .divimg p {
     font-weight: 600;
     font-size: 20px;
-}
-
-.div13 {
-    background-color: rgb(226, 170, 100);
-    width: 600px;
-    border-radius: 15px;
-    padding: 25px 20px;
-}
-
-.div13 h1 {
-    font-size: 23px;
-    font-weight: 600;
-    text-align: center;
-}
-
-.div13 img {
-    width: 50px;
-    height: 50px;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    margin-left: 20px;
-}
-
-.div13 .divimg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-
-.div13 p {
-    text-align: center;
-    line-height: 20px;
-    font-size: 18px;
-}
-
-.div14 {
-    background-color: rgb(226, 170, 100);
-    width: 600px;
-    border-radius: 15px;
-    padding: 25px 20px;
-}
-
-.div14 h1 {
-    font-size: 23px;
-    font-weight: 600;
-    text-align: center;
-}
-
-.div14 img {
-    width: 50px;
-    height: 50px;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    margin-left: 20px;
-}
-
-.div14 .divimg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-
-.div14 p {
-    text-align: center;
-    line-height: 20px;
-    font-size: 18px;
-}
-
-.divimg3 {
-    display: flex;
-    align-items: center;
 }
 
 footer {
@@ -746,11 +659,6 @@ ul a:hover {
     text-decoration: underline;
 }
 
-
-
-
-
-
 @media (min-width: 1920px) {
 
     .div1 {
@@ -849,6 +757,17 @@ ul a:hover {
         margin-top: -25px;
     }
 
+    nav a::after {
+        content: "";
+        position: absolute;
+        width: 0%;
+        height: 3px;
+        background-color: #000;
+        bottom: 0;
+        left: 0;
+        transition: all 0.6s ease-in-out;
+    }
+
     .div1 {
         border-radius: 20px;
         width: 410px;
@@ -907,7 +826,7 @@ ul a:hover {
         font-family: "Saira", sans-serif;
         font-weight: 700;
         font-size: 23px;
-        margin-top: -23px;
+        margin-top: -2 5px;
         padding-left: 25px;
     }
 
@@ -932,15 +851,16 @@ ul a:hover {
     }
 
     .div3 h3 {
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 400;
         font-family: "Saira", sans-serif;
         border: 1px solid #000;
-        padding: 6px 15px;
+        padding: 10px 20px;
         border-radius: 10px;
         transition: all 0.5s ease-in-out;
         cursor: pointer;
     }
+
 
     .div4 img {
         margin-left: 23px;
@@ -1077,27 +997,22 @@ ul a:hover {
     }
 
     .div7 h3 {
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 500;
         font-family: "Saira", sans-serif;
         border: 1px solid #000;
-        padding: 6px 15px;
+        padding: 10px 20px;
         border-radius: 10px;
         transition: all 0.5s ease-in-out;
         cursor: pointer;
     }
 
-    .div8 {
-        display: flex;
-        justify-content: space-between;
-        padding: 10px 70px;
-    }
-
-    .div8 .img {
-        width: 390px;
-        height: 360px;
+    .product {
         position: relative;
+        width: 380px;
+        height: 360px;
         overflow: hidden;
+        border-radius: 20px;
     }
 
     .div9 .div10 h1 {
@@ -1115,13 +1030,12 @@ ul a:hover {
     .div10 p {
         font-family: "Saira", sans-serif;
         text-align: justify;
-        padding-right: 70px;
+        /* padding-right: 70px; */
         font-size: 15px;
         opacity: 0;
         transform: translateY(-90px);
         animation: myanimation 2s ease forwards;
         animation-delay: 0s;
-
     }
 
     .div11 h1 {
@@ -1129,5 +1043,89 @@ ul a:hover {
         padding-left: 70px;
         font-size: 25px;
         font-family: "Saira", sans-serif;
+    }
+
+    .div12 {
+        background-color: rgb(226, 170, 100);
+        width: 600px;
+        border-radius: 20px;
+        padding: 40px 20px;
+    }
+
+    .div12 h1 {
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .div12 p {
+        line-height: 20px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .f2 h1 {
+        font-family: "Saira", sans-serif;
+        font-size: 25px;
+        padding-left: 20px;
+    }
+
+    ul a {
+        font-family: "Saira", sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        color: #fff;
+        text-decoration: none;
+        margin-left: -20px;
+        line-height: 25px;
+        transition: all 0.4s ease-in-out;
+    }
+
+    .f3 h1 {
+        font-family: "Saira", sans-serif;
+        font-size: 25px;
+        padding-left: 30px;
+    }
+
+    .f3 p {
+        font-family: "Saira", sans-serif;
+        font-size: 15px;
+        padding-left: 30px;
+    }
+
+    .f3 input {
+        padding: 8px 40px;
+        margin-left: 30px;
+        border: none;
+        border-bottom: 1px solid #fff;
+        background-color: #272424;
+        font-family: "Saira", sans-serif;
+    }
+
+    #button {
+        font-family: "Saira", sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        margin-left: 30px;
+        padding: 10px 110px;
+        border: 1px solid #fff;
+        border-radius: 8px;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .f6 h1 {
+        font-family: "Saira", sans-serif;
+        font-size: 60px;
+        font-weight: 600;
+        color: #fff;
+        margin-left: 30px;
+    }
+
+    .f6 p {
+        font-family: "Saira", sans-serif;
+        font-size: 20px;
+        color: #fff;
+        margin-top: 70px;
+        margin-right: 20px;
     }
 }
