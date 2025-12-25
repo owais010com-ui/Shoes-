@@ -806,5 +806,78 @@ ul a:hover {
         overflow: hidden;
     }
 
+    .divh h1 {
+        font-family: "Saira", sans-serif;
+        font-size: 55px;
+        line-height: 50px;
+        font-weight: 400;
+    }
+
+    .divh p {
+        font-family: "Saira", sans-serif;
+        font-size: 28px;
+        font-weight: 400;
+    }
+
+    .divh {
+        padding-top: 80px;
+    }
+
+    #but {
+        font-family: "Saira", sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        border: 1px solid #000;
+        background-color: #000;
+        color: #fff;
+        border-radius: 15px;
+        padding: 12px 30px;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .div6 img {
+        border: 1px solid #fff;
+        border-radius: 30px;
+        width: 600px;
+        height: 600px;
+    }
+
+    .div7 h1 {
+        font-weight: 400;
+        font-size: 35px;
+        font-family: "Saira", sans-serif;
+    }
+
+    .product {
+        position: relative;
+        width: 405px;
+        height: 380px;
+        overflow: hidden;
+        border-radius: 35px;
+    }
+
+    .div9 .div10 h1 {
+        font-family: "Space Grotesk", sans-serif;
+        line-height: 65px;
+        font-size: 75px;
+        font-weight: 700;
+        padding-left: 70px;
+        opacity: 0;
+        transform: translateY(-70px);
+        animation: myanimation 2s ease forwards;
+        animation-delay: 0s;
+    }
+
+    .div10 p {
+        font-family: "Saira", sans-serif;
+        text-align: justify;
+        padding-right: 70px;
+        font-size: 15px;
+        opacity: 0;
+        transform: translateY(-90px);
+        animation: myanimation 2s ease forwards;
+        animation-delay: 0s;
+    }
+
 
 }
