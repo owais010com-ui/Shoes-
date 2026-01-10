@@ -588,14 +588,22 @@ ul a:hover {
     padding: 10px 60px;
     margin-left: 30px;
     border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 8px;
     border-bottom: 1px solid #fff;
     background-color: #272424;
     font-family: "Saira", sans-serif;
 }
 
 ::placeholder {
-    color: #fff;
+    color: gray;
 }
+.f3 input:focus {
+       border-color: #ffffff;
+       box-shadow: 0px 0px 12px rgba(255, 255, 255);
+   }
+
 
 #button {
     font-family: "Saira", sans-serif;
