@@ -105,6 +105,7 @@ header nav a:hover::after {
     padding: 26px 25px 0px 25px;
     width: 490px;
     height: 340px;
+
 }
 
 .div1 a {
@@ -212,11 +213,17 @@ header nav a:hover::after {
 .div4 .card {
     width: 390px;
     height: 380px;
-    border: 1px solid #fff;
+    /* border: 1px solid #ccc; */
     border-radius: 30px;
     position: relative;
     overflow: hidden;
     cursor: pointer;
+    box-shadow: 3px 3px 10px #cccccc;
+    transition: all 0.5s ease-in-out;
+}
+
+.div4 .card:hover {
+    box-shadow: 3px 3px 10px #272424;
 }
 
 .card img {
@@ -244,75 +251,6 @@ header nav a:hover::after {
 .card:hover .card-btn {
     bottom: 0;
 }
-
-/* 
-.anchor {
-    position: relative;
-}
-
-.anchor #a1 {
-    font-family: sans-serif;
-    font-size: 17px;
-    font-weight: 400;
-    position: absolute;
-    left: 95px;
-    top: -385px;
-    text-decoration: none;
-    color: #000;
-    background-color: #fff;
-    border: 1px solid #fff;
-    border-radius: 13px;
-    padding: 8px 12px;
-
-}
-
-.anchor #a2 {
-    font-family: sans-serif;
-    font-size: 17px;
-    font-weight: 400;
-    position: absolute;
-    left: 520px;
-    top: -385px;
-    text-decoration: none;
-    color: #000;
-    background-color: #fff;
-    border: 1px solid #fff;
-    border-radius: 13px;
-    padding: 8px 12px;
-
-}
-
-.anchor #a3 {
-    font-family: sans-serif;
-    font-size: 17px;
-    font-weight: 400;
-    position: absolute;
-    left: 945px;
-    top: -385px;
-    text-decoration: none;
-    color: #000;
-    background-color: #fff;
-    border: 1px solid #fff;
-    border-radius: 13px;
-    padding: 8px 12px;
-
-}
-
-.anchor #a4 {
-    font-family: sans-serif;
-    font-size: 17px;
-    font-weight: 400;
-    position: absolute;
-    left: 1370px;
-    top: -385px;
-    text-decoration: none;
-    color: #000;
-    background-color: #fff;
-    border: 1px solid #fff;
-    border-radius: 13px;
-    padding: 8px 12px;
-
-} */
 
 .div6 {
     display: flex;
@@ -392,6 +330,12 @@ header nav a:hover::after {
     height: 500px;
     overflow: hidden;
     border-radius: 40px;
+    box-shadow: 5px 5px 10px #cccccc;
+    transition: all 0.5s ease-in-out;
+}
+
+.product:hover {
+    box-shadow: 5px 5px 10px #272424;
 }
 
 .product img {
@@ -490,14 +434,22 @@ header nav a:hover::after {
     width: 600px;
     border-radius: 15px;
     padding: 25px 20px;
+    border: 1px solid rgb(226, 170, 100);
+    transition: all 0.5s ease-in-out;
+    box-shadow: 5px 5px 10px #272424;
+}
 
+.div12:hover {
+    background-color: #ffffffff;
+    transform: translateY(-5px);
+    box-shadow: 5px 5px 8px rgb(226, 170, 100);
+    border: 1px solid rgb(226, 170, 100);
 }
 
 .div12 h1 {
     font-size: 23px;
     font-weight: 600;
     text-align: center;
-
 }
 
 .div12 img {
@@ -506,7 +458,6 @@ header nav a:hover::after {
     border: 1px solid #fff;
     border-radius: 50%;
     margin-left: 20px;
-
 }
 
 .div12 .divimg {
@@ -536,7 +487,6 @@ footer {
     justify-content: space-between;
     padding: 20px 70px 0px 55px;
 }
-
 
 .f2 {
     color: #fff;
@@ -1481,7 +1431,6 @@ ul a:hover {
         font-size: 45px;
         font-weight: 600;
         color: #fff;
-        /* margin-left: 30px; */
     }
 
     .f6 p {
@@ -1492,4 +1441,876 @@ ul a:hover {
         margin-right: 20px;
     }
 
+}
+
+/* Screen Size 768px check */
+@media (max-width: 991px) {
+
+    header {
+        padding: 0px 45px;
+    }
+
+    nav a {
+        font-size: 10px;
+        margin-left: 13px;
+    }
+
+    nav a::after {
+        height: 2px;
+    }
+
+    .backimg {
+        padding: 0px 45px;
+        position: relative;
+    }
+
+    .head {
+        top: -10px;
+        left: 65px;
+
+    }
+
+    .head h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .head h4 {
+        font-size: 14px;
+        margin-top: -20px;
+    }
+
+    .div1 {
+        border-radius: 15px;
+        width: 215px;
+        height: 250px;
+        top: 30px;
+        left: 455px;
+    }
+
+    .div1 img {
+        width: 192px;
+        height: 120px;
+        margin-top: -8px;
+        margin-left: -8px;
+    }
+
+    .div1 a {
+        position: absolute;
+        top: 18px;
+        left: 17px;
+        font-family: sans-serif;
+        text-decoration: none;
+        border-radius: 20px;
+        font-size: 8px;
+        border: 1px solid #000;
+        background-color: #000;
+        color: #fff;
+        padding: 5px 10px 5px 10px;
+    }
+
+    .div1 .p1 {
+        font-family: "Saira", sans-serif;
+        font-weight: 700;
+        font-size: 17px;
+        padding-left: 13px;
+    }
+
+    .div1 .p2 {
+        font-family: "Saira", sans-serif;
+        font-weight: 600;
+        text-decoration: line-through;
+        color: darkslategray;
+        font-size: 15px;
+        margin-top: -23px;
+        padding-left: 13px;
+    }
+
+    .div1 .p3 {
+        font-family: "Saira", sans-serif;
+        font-weight: 700;
+        font-size: 17px;
+        margin-top: -23px;
+        padding-left: 13px;
+    }
+
+    #butt {
+        font-weight: 600;
+        font-size: 8px;
+        border-radius: 12px;
+        margin-top: -11px;
+        margin-left: 13px;
+        padding: 9px 12px;
+
+    }
+
+    .div3 {
+        padding: 0px 45px;
+    }
+
+    .div3 h1 {
+        font-size: 25px;
+    }
+
+    .div4 {
+        padding: 0px 45px;
+    }
+
+    .div4 .card {
+        width: 160px;
+        height: 170px;
+        border-radius: 21px;
+    }
+
+    .card-btn {
+        font-size: 10px;
+        padding: 4px;
+    }
+
+    .div6 {
+
+        padding: 60px 45px;
+    }
+
+    .div6 img {
+        border: 1px solid #fff;
+        border-radius: 25px;
+        width: 350px;
+        height: 350px;
+    }
+
+    .divh {
+        padding-top: 0px;
+    }
+
+    .divh h1 {
+        font-family: "Saira", sans-serif;
+        font-size: 30px;
+        line-height: 32px;
+        font-weight: 400;
+    }
+
+    .divh p {
+
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    #but {
+        font-size: 10px;
+        border-radius: 13px;
+        padding: 10px 20px;
+    }
+
+    .div7 {
+        padding: 0px 45px;
+    }
+
+    .div7 h1 {
+        font-weight: 400;
+        font-size: 25px;
+    }
+
+    .div8 {
+        padding: 0px 45px;
+        cursor: pointer;
+    }
+
+    .product {
+        position: relative;
+        width: 218px;
+        height: 230px;
+        overflow: hidden;
+        border-radius: 25px;
+    }
+
+    .cart-btn {
+        font-size: 13px;
+        padding: 4px;
+    }
+
+    .div9 {
+        height: 500px;
+    }
+
+    .div10 {
+        top: 0px;
+        left: -27px;
+    }
+
+    .div9 .div10 h1 {
+        font-family: "Space Grotesk", sans-serif;
+        line-height: 40px;
+        font-size: 45px;
+    }
+
+    .div10 p {
+        padding-right: 45px;
+        font-size: 8px;
+    }
+
+    .div11 {
+        padding: 0px 55px;
+    }
+
+    .div11 h1 {
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+    .main {
+        padding: 10px 45px;
+    }
+
+    .div12 {
+        background-color: rgb(226, 170, 100);
+        width: 310px;
+        border-radius: 20px;
+        padding: 10px 20px;
+    }
+
+    footer .contian {
+        padding: 10px 45px 0px 25px;
+    }
+
+    .f2 h1 {
+        font-family: "Saira", sans-serif;
+        font-size: 13px;
+        padding-left: 20px;
+    }
+
+    ul a {
+        font-size: 10px;
+        font-weight: 400;
+        color: #fff;
+        text-decoration: none;
+        margin-left: -20px;
+        line-height: 20px;
+        transition: all 0.4s ease-in-out;
+    }
+
+    .f3 h1 {
+        font-family: "Saira", sans-serif;
+        font-size: 13px;
+        padding-left: 30px;
+    }
+
+    .f3 p {
+        font-family: "Saira", sans-serif;
+        font-size: 10px;
+        padding-left: 30px;
+        padding-top: 10px;
+    }
+
+    .f3 input {
+        padding: 11px 31px;
+        margin-left: 28px;
+        font-size: 10px;
+        border-radius: 13px;
+    }
+
+    #button {
+
+        font-size: 10px;
+        ;
+        margin-left: 27px;
+        padding: 10px 69px;
+        border-radius: 13px;
+        cursor: pointer;
+    }
+
+    .f6 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 30px 0px 10px;
+    }
+
+    .f6 h1 {
+        font-family: "Saira", sans-serif;
+        font-size: 35px;
+        font-weight: 600;
+        color: #fff;
+    }
+
+    .f6 p {
+        font-family: "Saira", sans-serif;
+        font-size: 12px;
+        color: #ffffff;
+        margin-top: 35px;
+        margin-right: 20px;
+    }
+}
+
+/* Screen Size 576px check */
+@media (max-width: 767px) {
+    header {
+        padding: 0px 25px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    .div1 {
+        border-radius: 15px;
+        width: 196px;
+        height: 250px;
+        top: 28px;
+        left: 310px;
+    }
+
+    nav a {
+        font-size: 7px;
+        margin-left: 8px;
+    }
+
+    nav a::after {
+        height: 2px;
+    }
+
+    #all img {
+        width: 15px;
+        margin-left: 0px;
+        margin-top: 7px;
+    }
+
+    .backimg {
+        padding: 0px 25px;
+        position: relative;
+    }
+
+    .head {
+        top: -14px;
+        left: 40px;
+    }
+
+    .head h1 {
+        font-size: 33px;
+        line-height: 33px;
+    }
+
+    .head h4 {
+        font-size: 10px;
+        margin-top: -17px;
+    }
+
+    .div1 {
+        border-radius: 14px;
+        width: 175px;
+        height: 195px;
+        top: 22px;
+        left: 338px;
+    }
+
+    .div1 img {
+        width: 150px;
+        height: 90px;
+        margin-top: -8px;
+        margin-left: -8px;
+    }
+
+    .div1 a {
+        position: absolute;
+        top: 16px;
+        left: 16px;
+        font-family: sans-serif;
+        text-decoration: none;
+        border-radius: 13px;
+        font-size: 7px;
+        border: 1px solid #000;
+        background-color: #000;
+        color: #fff;
+        padding: 3px 7px 3px 7px;
+    }
+
+    .div1 .p1 {
+        font-family: "Saira", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        padding-left: 13px;
+    }
+
+    .div1 .p2 {
+        font-family: "Saira", sans-serif;
+        font-weight: 600;
+        text-decoration: line-through;
+        color: darkslategray;
+        font-size: 10px;
+        margin-top: -19px;
+        padding-left: 13px;
+    }
+
+    .div1 .p3 {
+        font-family: "Saira", sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+        margin-top: -15px;
+        padding-left: 13px;
+    }
+
+    #butt {
+        font-weight: 600;
+        font-size: 8px;
+        border-radius: 12px;
+        margin-top: -18px;
+        margin-left: 13px;
+        padding: 9px 12px;
+    }
+
+    #butt {
+        font-weight: 600;
+        font-size: 7px;
+        border-radius: 10px;
+        /* margin-top: -12px; */
+        margin-left: 13px;
+        padding: 8px 10px;
+    }
+
+    .div3 {
+        padding: 0px 25px;
+    }
+
+    .div3 h1 {
+        font-size: 20px;
+    }
+
+    .div4 {
+        padding: 0px 25px;
+    }
+
+    .div4 .card {
+        width: 120px;
+        height: 125px;
+        border-radius: 17px;
+    }
+
+    .card-btn {
+        font-size: 8px;
+        padding: 3px;
+    }
+
+    .div6 {
+        padding: 50px 25px;
+    }
+
+    .div6 img {
+        border: 1px solid #ffffff;
+        border-radius: 20px;
+        width: 265px;
+        height: 265px;
+    }
+
+    .divh h1 {
+        font-family: "Saira", sans-serif;
+        font-size: 23px;
+        line-height: 23px;
+        font-weight: 400;
+    }
+
+    .divh p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    #but {
+        font-size: 8px;
+        border-radius: 12px;
+        padding: 10px 18px;
+    }
+
+    .div7 {
+        padding: 0px 25px;
+    }
+
+    .div7 h1 {
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .div8 {
+        padding: 0px 25px;
+        cursor: pointer;
+    }
+
+    .product {
+        position: relative;
+        width: 165px;
+        height: 170px;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+
+    .cart-btn {
+        font-size: 10px;
+        padding: 4px;
+    }
+
+    .div9 {
+        height: 350px;
+    }
+
+    .div10 {
+        top: 0px;
+        left: -45px;
+    }
+
+    .div9 .div10 h1 {
+        font-family: "Space Grotesk", sans-serif;
+        line-height: 33px;
+        font-size: 35px;
+    }
+
+    .div10 p {
+        padding-right: 25px;
+        font-size: 6px;
+    }
+
+    .div11 {
+        padding: 0px 55px 0px 0px;
+        text-align: center;
+    }
+
+    .div11 h1 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .main {
+        padding: 10px 25px;
+    }
+
+    .div12 {
+        background-color: rgb(226, 170, 100);
+        width: 310px;
+        border-radius: 20px;
+        padding: 13px 7px;
+    }
+
+    .div12 h1 {
+        font-size: 11px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .div12 p {
+        line-height: 14px;
+        font-size: 9px;
+        text-align: center;
+    }
+
+    .div12 .divimg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .div12 img {
+        width: 30px;
+        height: 30px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        margin-left: 0px;
+    }
+
+    footer .contian {
+        padding: 10px 25px 0px 10px;
+    }
+
+    .f2 h1 {
+        font-family: "Saira", sans-serif;
+        font-size: 12px;
+        padding-left: 20px;
+    }
+
+    ul a {
+        font-size: 8px;
+        font-weight: 400;
+        color: #fff;
+        text-decoration: none;
+        margin-left: -20px;
+        line-height: 12px;
+        transition: all 0.4s ease-in-out;
+    }
+
+    .f3 h1 {
+        font-family: "Saira", sans-serif;
+        font-size: 12px;
+        padding-left: 30px;
+    }
+
+    .f3 p {
+        font-family: "Saira", sans-serif;
+        font-size: 8px;
+        padding-left: 30px;
+        padding-top: 13px;
+    }
+
+    .f3 input {
+        padding: 8px 20px;
+        margin-left: 28px;
+        font-size: 10px;
+        border-radius: 12px;
+    }
+
+    #button {
+        font-size: 10px;
+        margin-left: 27px;
+        padding: 8px 59px;
+        border-radius: 11px;
+        cursor: pointer;
+    }
+
+    .f6 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 7px 0px 0px;
+    }
+
+    .f6 h1 {
+        font-family: "Saira", sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        color: #fff;
+    }
+
+    .f6 p {
+        font-family: "Saira", sans-serif;
+        font-size: 10px;
+        color: #ffffff;
+        margin-top: 26px;
+        margin-right: 20px;
+    }
+}
+
+/* Screen Size All mobile check */
+@media (max-width: 575px) {
+    header h1 {
+        font-size: 14px;
+    }
+
+    nav a {
+        font-size: 5px;
+        margin-left: 3px;
+    }
+
+    #all img {
+        width: 10px;
+        margin-left: 0px;
+        margin-top: 7px;
+    }
+
+    .backimg img {
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    .head {
+        top: -1px;
+        left: 37px;
+    }
+
+    .head h1 {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .head h4 {
+        font-size: 8px;
+        margin-top: -5px;
+    }
+
+    .div1 {
+        display: none;
+    }
+
+    .div3 h1 {
+        font-size: 12px;
+    }
+
+    .div4 .card {
+        width: 80px;
+        height: 90px;
+        border-radius: 15px;
+    }
+
+    .card-btn {
+        font-size: 6px;
+        padding: 1px;
+    }
+
+    .divh h1 {
+        font-family: "Saira", sans-serif;
+        font-size: 15px;
+        line-height: 17px;
+        font-weight: 400;
+        margin-top: -30px;
+    }
+
+    .div6 img {
+        border: 1px solid #ffffff;
+        border-radius: 15px;
+        width: 170px;
+        height: 180px;
+    }
+
+    .divh p {
+        font-size: 9px;
+        font-weight: 400;
+    }
+
+    #but {
+        font-size: 5px;
+        border-radius: 6px;
+        padding: 5px 10px;
+    }
+
+    .div7 h1 {
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    .product {
+        position: relative;
+        width: 110px;
+        height: 120px;
+        overflow: hidden;
+        border-radius: 15px;
+    }
+
+    .cart-btn {
+        font-size: 7px;
+        padding: 2px;
+    }
+
+    .product:hover {
+        box-shadow: 3px 3px 8px #272424;
+    }
+
+    .div9 {
+        height: 250px;
+    }
+
+    .div9 .div10 h1 {
+        font-family: "Space Grotesk", sans-serif;
+        line-height: 18px;
+        font-size: 20px;
+    }
+
+    .div10 p {
+        padding-right: 23px;
+        font-size: 3px;
+    }
+
+    .div11 h1 {
+        font-size: 12px;
+        font-weight: 400;
+        padding-left: 70px;
+        font-family: "Saira", sans-serif;
+    }
+
+    .main {
+        font-family: "Saira", sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .div12:hover {
+        transform: translateY(-3px);
+    }
+
+    .div12 {
+        border-radius: 15px;
+        padding: 20px 20px;
+    }
+
+    .div12 h1 {
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .div12 p {
+        line-height: 15px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .div12 .divimg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .contian {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .f2 h1 {
+        font-family: "Saira", sans-serif;
+        font-size: 20px;
+    }
+
+    ul a {
+        font-size: 13px;
+        font-weight: 400;
+        color: #fff;
+        text-decoration: none;
+        line-height: 25px;
+        transition: all 0.4s ease-in-out;
+    }
+
+    .f3 h1 {
+        font-family: "Saira", sans-serif;
+        font-size: 20px;
+    }
+
+    .f3 p {
+        font-family: "Saira", sans-serif;
+        font-size: 13px;
+    }
+
+    .f3 input {
+        padding: 10px 40px;
+        font-size: 11px;
+        border-radius: 12px;
+    }
+
+    #button {
+        font-size: 11px;
+        font-weight: 700;
+        padding: 8px 146px;
+        border-radius: 25px;
+        cursor: pointer;
+    }
+
+    .f6 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10px;
+    }
+
+    .f6 h1 {
+        font-family: "Saira", sans-serif;
+        font-size: 25px;
+        font-weight: 600;
+        color: #fff;
+    }
+
+    .f6 p {
+        font-family: "Saira", sans-serif;
+        font-size: 9px;
+        color: #ffffff;
+        margin-top: 20px;
+        margin-right: 25px;
+    }
 }
