@@ -2088,16 +2088,15 @@ ul a:hover {
 /* Screen Size All mobile check */
 @media (max-width: 575px) {
     header h1 {
-        font-size: 14px;
+        font-size: 10px;
     }
 
     nav a {
-        font-size: 3px;
+        font-size: 0px;
     }
 
     #all img {
-        width: 10px;
-        margin-left: 0px;
+        width: 5px;
         margin-top: 7px;
     }
 
@@ -2130,13 +2129,13 @@ ul a:hover {
     }
 
     .div4 .card {
-        width: 75px;
-        height: 80px;
+        width: 70px;
+        height: 75px;
         border-radius: 15px;
     }
 
     .card-btn {
-        font-size: 4px;
+        font-size: 2px;
         padding: 1px;
     }
 
@@ -2173,8 +2172,8 @@ ul a:hover {
 
     .product {
         position: relative;
-        width: 100px;
-        height: 105px;
+        width: 90px;
+        height: 95px;
         overflow: hidden;
         border-radius: 15px;
     }
