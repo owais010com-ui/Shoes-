@@ -2092,7 +2092,7 @@ ul a:hover {
     }
 
     nav a {
-        font-size: 4px;
+        font-size: 2px;
     }
 
     #all img {
@@ -2129,14 +2129,14 @@ ul a:hover {
     }
 
     .div4 .card {
-        width: 40px;
-        height: 45px;
+        width: 60px;
+        height: 65px;
         border-radius: 15px;
     }
 
     .card-btn {
         font-size: 1px;
-        padding: 0px;
+        padding: 2px;
     }
 
     .divh h1 {
@@ -2178,10 +2178,10 @@ ul a:hover {
         border-radius: 15px;
     }
 
-    .cart-btn {
+    /* .cart-btn {
         font-size: 5px;
         padding: 2px;
-    }
+    } */
 
     .product:hover {
         box-shadow: 3px 3px 8px #272424;
@@ -2224,7 +2224,7 @@ ul a:hover {
 
     .div12 {
         border-radius: 15px;
-        padding: 20px 20px;
+        padding: 20px 10px;
     }
 
     .div12 h1 {
