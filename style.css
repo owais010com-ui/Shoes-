@@ -2092,7 +2092,7 @@ ul a:hover {
     }
 
     nav a {
-        font-size: 2px;
+        font-size: 4px;
     }
 
     #all img {
@@ -2129,8 +2129,8 @@ ul a:hover {
     }
 
     .div4 .card {
-        width: 60px;
-        height: 65px;
+        width: 40px;
+        height: 45px;
         border-radius: 15px;
     }
 
