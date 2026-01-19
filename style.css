@@ -2092,8 +2092,7 @@ ul a:hover {
     }
 
     nav a {
-        font-size: 5px;
-        margin-left: 3px;
+        font-size: 3px;
     }
 
     #all img {
@@ -2131,20 +2130,20 @@ ul a:hover {
     }
 
     .div4 .card {
-        width: 80px;
-        height: 90px;
+        width: 75px;
+        height: 80px;
         border-radius: 15px;
     }
 
     .card-btn {
-        font-size: 6px;
+        font-size: 4px;
         padding: 1px;
     }
 
     .divh h1 {
         font-family: "Saira", sans-serif;
-        font-size: 15px;
-        line-height: 17px;
+        font-size: 13px;
+        line-height: 14px;
         font-weight: 400;
         margin-top: -30px;
     }
@@ -2152,19 +2151,19 @@ ul a:hover {
     .div6 img {
         border: 1px solid #ffffff;
         border-radius: 15px;
-        width: 170px;
-        height: 180px;
+        width: 135px;
+        height: 140px;
     }
 
     .divh p {
-        font-size: 9px;
+        font-size: 6px;
         font-weight: 400;
     }
 
     #but {
         font-size: 5px;
         border-radius: 6px;
-        padding: 5px 10px;
+        padding: 4px 8px;
     }
 
     .div7 h1 {
@@ -2174,14 +2173,14 @@ ul a:hover {
 
     .product {
         position: relative;
-        width: 110px;
-        height: 120px;
+        width: 100px;
+        height: 105px;
         overflow: hidden;
         border-radius: 15px;
     }
 
     .cart-btn {
-        font-size: 7px;
+        font-size: 5px;
         padding: 2px;
     }
 
@@ -2285,7 +2284,7 @@ ul a:hover {
     }
 
     #button {
-        font-size: 11px;
+        font-size: 8px;
         font-weight: 700;
         padding: 8px 120px;
         border-radius: 25px;
