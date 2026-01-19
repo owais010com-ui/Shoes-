@@ -2093,6 +2093,7 @@ ul a:hover {
 
     nav a {
         font-size: 1px;
+        display: none;
     }
 
     #all img {
@@ -2129,8 +2130,8 @@ ul a:hover {
     }
 
     .div4 .card {
-        width: 60px;
-        height: 65px;
+        width: 70px;
+        height: 75px;
         border-radius: 15px;
     }
 
@@ -2191,15 +2192,23 @@ ul a:hover {
         height: 250px;
     }
 
+    .div10 {
+        top: 0px;
+        left: 12px;
+    }
+
     .div9 .div10 h1 {
         font-family: "Space Grotesk", sans-serif;
         line-height: 18px;
         font-size: 20px;
+        /* display: none; */
+        text-align: center;
     }
 
     .div10 p {
         padding-right: 23px;
         font-size: 3px;
+        display: none;
     }
 
     .div11 h1 {
@@ -2224,7 +2233,7 @@ ul a:hover {
 
     .div12 {
         border-radius: 15px;
-        padding: 20px 10px;
+        padding: 20px 0px;
     }
 
     .div12 h1 {
@@ -2235,7 +2244,7 @@ ul a:hover {
 
     .div12 p {
         line-height: 15px;
-        font-size: 10px;
+        font-size: 9px;
         text-align: center;
     }
 
