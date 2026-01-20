@@ -2320,4 +2320,47 @@ ul a:hover {
         margin-top: 20px;
         margin-right: 25px;
     }
+
+}
+
+@media (max-width: 335px) {
+    .div4 .card {
+        width: 60px;
+        height: 65px;
+        border-radius: 15px;
+    }
+
+    .product {
+        position: relative;
+        width: 85px;
+        height: 90px;
+        overflow: hidden;
+        border-radius: 15px;
+    }
+
+    .cart-btn {
+        font-size: 3px;
+        padding: 3px;
+    }
+
+    .div9 .div10 h1 {
+        font-family: "Space Grotesk", sans-serif;
+        line-height: 18px;
+        font-size: 20px;
+        text-align: center
+    }
+
+    .div10 {
+        top: 0px;
+        left: -20px;
+
+    }
+
+    #button {
+        font-size: 6px;
+        font-weight: 700;
+        padding: 8px 120px;
+        border-radius: 25px;
+        cursor: pointer;
+    }
 }
