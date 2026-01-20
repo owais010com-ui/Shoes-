@@ -2179,10 +2179,10 @@ ul a:hover {
         border-radius: 15px;
     }
 
-    /* .cart-btn {
-        font-size: 5px;
+    .cart-btn {
+        font-size: 3px;
         padding: 2px;
-    } */
+    }
 
     .product:hover {
         box-shadow: 3px 3px 8px #272424;
@@ -2323,77 +2323,30 @@ ul a:hover {
 
 }
 
-@media (max-width: 335px) {
+@media (max-width: 360px) {
     .div4 .card {
-        width: 60px;
-        height: 65px;
+        width: 65px;
+        height: 70px;
         border-radius: 15px;
     }
 
-    .product {
-        position: relative;
-        width: 85px;
-        height: 90px;
-        overflow: hidden;
-        border-radius: 15px;
-    }
-
-    .cart-btn {
+    .card-btn {
         font-size: 3px;
-        padding: 3px;
+        padding: 1px;
+    }
+
+    .div10 {
+        top: 0px;
+        left: 12px;
+        display: none;
     }
 
     .div9 .div10 h1 {
         font-family: "Space Grotesk", sans-serif;
         line-height: 18px;
         font-size: 20px;
-        text-align: center
-    }
-
-    .div10 {
-        top: 0px;
-        left: -20px;
-
-    }
-
-    #button {
-        font-size: 6px;
-        font-weight: 700;
-        padding: 8px 120px;
-        border-radius: 25px;
-        cursor: pointer;
-    }
-}
-
-@media (max-width: 305px) {
-    .div4 .card {
-        width: 54px;
-        height: 60px;
-        border-radius: 15px;
-    }
-
-    .card-btn {
-        font-size: 1px;
-        padding: 1px;
-    }
-
-    .product {
-        position: relative;
-        width: 75px;
-        height: 80px;
-        overflow: hidden;
-        border-radius: 15px;
-    }
-
-    .cart-btn {
-        font-size: 1px;
-        padding: 1px;
-    }
-
-    .div9 .div10 h1 {
-        font-family: "Space Grotesk", sans-serif;
-        line-height: 18px;
-        font-size: 16px;
+        display: none;
         text-align: center;
+
     }
 }
