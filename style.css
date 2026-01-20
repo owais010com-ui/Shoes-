@@ -2195,13 +2195,14 @@ ul a:hover {
     .div10 {
         top: 0px;
         left: 12px;
+        display: none;
     }
 
     .div9 .div10 h1 {
         font-family: "Space Grotesk", sans-serif;
         line-height: 18px;
         font-size: 20px;
-        /* display: none; */
+        display: none;
         text-align: center;
     }
 
