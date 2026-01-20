@@ -2364,3 +2364,36 @@ ul a:hover {
         cursor: pointer;
     }
 }
+
+@media (max-width: 305px) {
+    .div4 .card {
+        width: 54px;
+        height: 60px;
+        border-radius: 15px;
+    }
+
+    .card-btn {
+        font-size: 1px;
+        padding: 1px;
+    }
+
+    .product {
+        position: relative;
+        width: 75px;
+        height: 80px;
+        overflow: hidden;
+        border-radius: 15px;
+    }
+
+    .cart-btn {
+        font-size: 1px;
+        padding: 1px;
+    }
+
+    .div9 .div10 h1 {
+        font-family: "Space Grotesk", sans-serif;
+        line-height: 18px;
+        font-size: 16px;
+        text-align: center;
+    }
+}
